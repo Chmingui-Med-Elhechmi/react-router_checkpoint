@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.movies {
+  display: flex;
+  justify-content: center;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+}
+
+.stars {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.searchtxt {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: medium;
+  border-radius: 10%;
+}
+
+.addButton {
+  position: absolute;
+  top: 10px; right: 400px;
+  font-size: medium;
+  font-style: oblique;
+  color: black;
+  background-color: white;
+  border-color: #007bff;
+  border-radius: 20px;
+}
